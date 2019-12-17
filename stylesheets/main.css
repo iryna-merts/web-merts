@@ -8,6 +8,10 @@ a:hover {
 }
 
 /* nav */
+html {
+  scroll-behavior: smooth;
+}
+
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -375,3 +379,40 @@ body{
 /* friends and partners section */
 
 /*end of friends and partners section */
+
+/* map */
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+/* end of map section */
+
+/* footer */
+footer {
+	background-color: #2d2d30;
+	color: #f5f5f5;
+	padding: 32px;
+}
+
+footer a {
+	color: #f5f5f5;
+}
+
+footer a:hover {
+	color: #777;
+	text-decoration: none;
+}
+
+.form-control {
+	border-radius: 0;
+}
+/* end of footer section */
